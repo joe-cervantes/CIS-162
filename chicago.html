@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>  
+  
+   <meta charset="utf-8">
+  
+   <meta name="viewport"
+   content="width=device-width, initial-scale=1.0">
+    <title>Pizza Los Angeles</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="pizza_formsubmit.js"></script>
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: salmon
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #2da72d;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
+    
+</head>
+
+<body>
+        <header>
+            <img src="pizza_logo.png" alt="Pizza logo"/>
+            <nav class="horizontalNavigation">
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Neapolitan.html">Neapolitan</a></li>
+                <li><a href="detroit.html">Detroit</a></li>                  
+               </ul>
+            </nav>
+            <br>
+            <h1>Chicago Deep Dish</h1>        
+         </header>
+    <div class="container">
+        <section>
+            <img src="pizza_3.jpg" alt="Placeholder">
+            <h1>Deep dish pizza came to be in the frozen landscape better known for football              the home of the Chicago Bears.  It was invented by Ike Sewell and Ric Riccardo at 
+              the renowned Pizzeria Uno in Chicago in 1943.  It has appeared in Los Angeles 
+              in several dining establishments.  But we believe one of its best interpretations 
+              resides in Echo Park, California. 
+                           
+        </h1>
+        </section>
+    
+        <section>
+          
+            <p>We are proud Angelenos who often embrace pizza styles from other states.  
+              In Los Angeles we have Masa of Echo Park as our premiere example of Chicago 
+              pizza.  It's your typical deep dish encarnation of what Chicaogans have been
+              enjoying for decades.  Tha Bears!
+              <br>
+              <br>
+              Please register to receive our monthly newsletter.
+
+            </p>
+          
+<form id="survey" action="http://www.example.com/chicago/registration" method="post" >
+            
+             
+<fieldset id="custInfo">
+
+  <legend>Newsletter Registration</legend>
+<br>
+<br>
+  <div class="formRow">
+  <label for="name">Name*</label>
+  <input name="custName" id="name" type="text" placeholder=" first and last name" required />
+  </div>
+
+  <div class="formRow">
+  <label for="street">Street*</label>    
+  <input name="custStreet" id="street" type="text" />
+  </div>
+
+  <div class="formRow">
+  <label for="city">City*</label>
+  <input name="custCity" id="city" type="text" />
+  </div>
+
+  <div class="formRow">
+  <label for="state">State*</label>
+  <input name="custState" id="state" type="text" value="CA"/>
+  </div>
+  
+  <div class="formRow">
+  <label for="zip">Zip*</label>
+  <input name="custZip" id="zip" type="text" pattern="^\d{5}(-\d{4})?$" />
+  </div>
+  
+  <div class="formRow">
+  <label for="phone">Phone*</label>
+  <input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern=pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+  </div>
+
+  <div class="formRow">
+  <label for="e-mail">E-Mail*</label>
+  <input name="custEmail" id="mail" type="email" required />
+  </div>
+</fieldset>
+  <div id="buttons">
+    <input type="submit" value="Submit Registration" />
+    <input type="reset" value="Cancel" />
+    </div>
+            
+    </form>
+
+            <br>
+            <br>
+
+            <img src="pizza_4.jpg" alt="Placeholder">
+        </section>
+    </div>
+    
+    <footer>
+        Pizza Coaltion of Los Angeles &copy; 2024 All Rights Reserved
+       </footer>
+</body>
+
+</html>
