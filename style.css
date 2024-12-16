@@ -31,6 +31,10 @@ body > header > img {
     width: 100%;
 }
 
+body > header > h1{
+	background-color: rgb(223, 116, 97);
+}
+
 body > header > nav.horizontalNavigation li {
     width: 33%;
 	
