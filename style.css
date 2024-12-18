@@ -1,89 +1,14 @@
-.container-fluid {
-	background-color: rgb(223, 116, 97);
-	border-radius: 20px;
-	margin: 50px auto;
-	padding: 20px;
-	width: 80vw;
+
+*{
+    margin: 5PX;
+    box-sizing: border-box;
 }
 
-section {
-	outline: 1px solid salmon;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-	margin: 20px;
-}
-
-@media (width <= 800px) {
-	section {
-		flex-direction: column;
-	}
-
-	section:last-child {
-		flex-direction: column-reverse; /* reverse the column order */
-	}
-}
-
-/* Body Header Styles */
-body > header > img {
-    display: block;
-    width: 100%;
-}
-
-body > header > h1{
-	background-color: rgb(223, 116, 97);
-}
-
-body > header > nav.horizontalNavigation li {
-    width: 33%;
-	
-}
-body {
-	background-color: rgb(221, 43, 58);
-	font-family: helvetica, sans-serif;
-	line-height: 1.2;
-    
-}
-
-/* Horizontal Navigation Styles */
-
-nav.horizontalNavigation li {
-	display: block;
-	
-}
-
-nav.horizontalNavigation a {
-	display: block;
-	
-    
-}
-
-nav.horizontalNavigation a:link, 
-nav.horizontalNavigation a:visited {
-   color: rgb(17, 17, 17);
-   font-size: x-large;
-}
-
-nav.horizontalNavigation a:hover, 
-nav.horizontalNavigation a:active {
-   background-color: rgb(121, 8, 8);
-}   
-
-h1{ text-align: center;}
-
-footer {
-    color: rgb(31, 31, 29);
-    background-color: rgb(226, 11, 40);
-    font-size: 1.5em;
-    padding: 1em 0;
+body
+{
+    background: #34e7e4
+    font-family: sans-serif;
     text-align: center;
- }
+    color: white;
 
-form {
-	
-		color: yellow;
-		background-color: green;
-		display: block;
-		width: 100%;
 }
