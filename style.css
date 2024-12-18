@@ -1,14 +1,158 @@
 
-*{
-    margin: 5PX;
-    box-sizing: border-box;
+.container-fluid {
+	background-color: rgb(223, 43, 58);
+	border-radius: 20px;
+	margin: 50px auto;
+	padding: 20px;
+	width: 80vw;
 }
 
-body
-{
-    background: #34e7e4
-    font-family: sans-serif;
+.card {
+	background-color: rgb(223, 116, 97);
+}
+.accordion-flush{
+	background-color: rgb(223, 116, 97);
+}
+section {
+	outline: 1px solid salmon;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+@media (width <= 800px) {
+	section {
+		flex-direction: column;
+	}
+
+	section:last-child {
+		flex-direction: column-reverse; /* reverse the column order */
+	}
+}
+
+/* Body Header Styles */
+body > header > img {
+    display: block;
+    width: 100%;
+	background-color: rgb(221, 43, 58);
+}
+
+body > header > h1{
+	background-color: rgb(223, 116, 97);
+}
+
+body > div > container{
+	background-color: rgb(221, 43, 58);
+}
+
+body > header > nav.horizontalNavigation li {
+    width: 33%;
+	
+}
+body {
+	background-color: rgb(221, 43, 58);
+	font-family: helvetica, sans-serif;
+	line-height: 1.2;
+    
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation li {
+	display: block;
+	
+}
+
+nav.horizontalNavigation a {
+	display: block;
+	
+    
+}
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(17, 17, 17);
+   font-size: x-large;
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(121, 8, 8);
+}   
+
+h1{ text-align: center;}
+
+
+
+footer {
+    color: rgb(31, 31, 29);
+    background-color: rgb(226, 11, 40);
+    font-size: 1.5em;
+    padding: 1em 0;
     text-align: center;
-    color: white;
+ }
 
+form {
+	
+		color: yellow;
+		background-color: green;
+		display: block;
+		width: 100%;
 }
+
+accordion-item{
+	background-color: salmon;
+}
+
+
+style> ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: salmon;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #2da72d;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+              div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 180px;
+              }
+              
+              div.gallery:hover {
+                border: 1px solid #777;
+              }
+              
+              div.gallery img {
+                width: 100%;
+                height: auto;
+              }
+              
+              div.desc {
+                padding: 15px;
+                text-align: center;
+              }
+            
